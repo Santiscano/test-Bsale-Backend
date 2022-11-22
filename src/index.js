@@ -8,11 +8,6 @@ const main = () =>{
 };
 app.on('error',(err) =>{
     console.log('Error:',err);
-    // if(err.code === 'PROTOCOL_CONNECTION_LOST') {   
-    //     handleDisconnect();                         
-    // } else {                                      
-    //     throw err;                                  
-    // }
 })
 
 main();
