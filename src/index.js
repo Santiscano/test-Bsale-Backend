@@ -1,5 +1,6 @@
-import app from './app'
+import app from './app.js'
 // import { handleDisconnect } from './database/database'
+
 
 const main = () =>{
     app.listen(app.get('port'));
