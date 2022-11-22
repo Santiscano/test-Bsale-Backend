@@ -1,5 +1,5 @@
-import app from './app.js'
-// import { handleDisconnect } from './database/database'
+
+import app from './app.js';
 
 
 const main = () =>{
